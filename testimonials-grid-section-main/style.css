@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 *{
 padding: 0;
 margin: 0;
@@ -10,7 +11,7 @@ body{
     justify-content: center;
     min-height: 100vh;
       background-color: rgb(249, 245, 245); 
-      
+
 }
 .container{
     display: grid;
@@ -46,16 +47,16 @@ body{
     
 } 
 .first-card h3{
-    font-weight: 100;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 10px;
     width: 450px;
+          font-family: "Barlow Semi Condensed", sans-serif;
     
 }
 .first-card p{
     color:  hsl(214, 17%, 92%);
     font-size: 12px;
-    font-weight: 290px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 }
 .second-card{
     background-color:  hsl(217, 19%, 35%)  ;
@@ -67,14 +68,19 @@ body{
     border-radius: 12px;
     color: white;
 }
+.detauls h5{
+          font-family: "Barlow Semi Condensed", sans-serif;
+          font-size: 10px;
+}
 .second-card h3{
-font-size: 15px;
-font-weight: 100;
+font-size: 20px;
 width: 200px;
+      font-family: "Barlow Semi Condensed", sans-serif;
 }
 .second-card p{
      color:  hsl(214, 17%, 92%);
      font-size: 12px;
+           font-family: "Barlow Semi Condensed", sans-serif;
 }
 .third-card{
      background-color:  hsl(0, 0%, 100%); 
@@ -93,14 +99,15 @@ width: 200px;
     font-size: 14px;
 } 
 .third-card p{
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 }
 .details-five{
     color: black;
 }
 .third-card h3{
-    font-size: 15px;
+    font-size: 20px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 }
 .details-three{
     margin-top: 3px;
@@ -127,13 +134,15 @@ width: 200px;
     color: black;
 }
 .fourth-card h3{
-    font-size: 15px;
-    width: 150px;
+    font-size: 20px;
+    width: 180px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 }
 .fourth-card p{
     color:  black;
     font-size: 12px;
     width: 200px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .fifth-card{
@@ -148,13 +157,13 @@ width: 200px;
     color: white;
 }
  .fifth-card h3{
-    font-size: 14px;
-font-size: 15px;
-font-weight: 100;
-width: 370px;
+    font-size: 20px;
+width: 450px;
+      font-family: "Barlow Semi Condensed", sans-serif;
 }
 .fifth-card p{
     font-size: 12px;
+          font-family: "Barlow Semi Condensed", sans-serif;
 } 
 .ins{
     display: flex;
@@ -165,9 +174,22 @@ width: 370px;
     font-weight: 200;
     font-size: 14px;
 }
-.details-four h5{
-    font-weight: bold;
-    
+.details-four h5,
+.details h5,
+.details-five h5,
+.details-three h5,
+.details-two h5{
+          font-family: "Barlow Semi Condensed", sans-serif;
+    font-size:13px;
+}
+.details-four h6,
+.details h6,
+.details-five h6,
+.details-three h6,
+.details-two h6{
+    font-size: 9px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    /* color: hsl(224, 10%, 45%) ; */
 }
 
 img{
@@ -176,6 +198,9 @@ img{
 }
  .first-card,.second-card,.third-card,.fourth-card,.fifth-card{ 
    box-shadow:  6px 6px 8px grey;
+}
+p{
+     color:hsl(224, 10%, 45%) ;
 }
 @media(max-width:375px){
     body{
